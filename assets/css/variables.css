@@ -1,6 +1,6 @@
 :root {
   --bg: #23242b;
-  --bg2: #2c3034;
+  --bg-2: #2c3034;
   --bg-3: #7f7f7f;
   --light-border-color: #7f7f7f;
   --dark-border-color: #15161a;
@@ -8,4 +8,9 @@
   --text-2: #838383;
   --purple: #5d4192;
   --light-red: #f66673;
+  --icons-color: #7f7f7f;
+
+  --default-pad: 1rem;
+
+  --nav-font-size: 1.3rem;
 }

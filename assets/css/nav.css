@@ -1,3 +1,40 @@
 #side-nav {
-  width: 30vw;
+  padding: var(--default-pad);
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: var(--bg-2);
+  font-size: var(--nav-font-size);
+  border-right: 1px var(--light-border-color) solid;
+}
+
+#side-nav section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.nav-header {
+  display: flex;
+  color: var(--text-1);
+  font-weight: 500;
+  gap: 0.5rem;
+}
+
+.icon {
+  width: 20px;
+}
+
+.nac-icon-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-1);
+  font-weight: 400;
+}
+
+.icon-active {
+  fill: var(--light-red);
 }
