@@ -1,0 +1,22 @@
+.announcement {
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--light-border-color);
+}
+
+.announcement:last-child {
+  border-bottom: 0px;
+}
+
+.announcement h4 {
+  color: var(--text-2);
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+.announcement p {
+  color: var(--text-2);
+  font-size: 0.7rem;
+  font-weight: 400;
+  padding-top: 5px;
+}

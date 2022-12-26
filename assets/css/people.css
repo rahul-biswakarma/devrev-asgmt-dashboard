@@ -1,0 +1,19 @@
+.people {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-weight: 500;
+  color: var(--text-1);
+  font-size: 1.1rem;
+}
+
+.people img {
+  width: 60px;
+  height: 60px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+  border: 2px solid var(--dark-border-color);
+}

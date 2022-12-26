@@ -6,11 +6,12 @@
   --dark-border-color: #15161a;
   --text-1: #c0bfc1;
   --text-2: #838383;
-  --purple: #5d4192;
+  --purple: #6c50a0;
   --light-red: #f66673;
   --icons-color: #7f7f7f;
+  --button-color-1: #34383c;
 
-  --default-pad: 1rem;
+  --default-pad: 1.5rem;
 
   --nav-font-size: 1.3rem;
 }

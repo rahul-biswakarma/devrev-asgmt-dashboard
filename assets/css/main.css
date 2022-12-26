@@ -1,0 +1,46 @@
+@import "card.css";
+@import "people.css";
+@import "announcement.css";
+
+main {
+  display: grid;
+  grid-template-columns: 75% auto;
+  grid-gap: var(--default-pad);
+
+  padding: var(--default-pad);
+}
+
+.left-section h3,
+.right-section h3 {
+  color: var(--text-1);
+  font-size: 1rem;
+  font-weight: 400;
+
+  margin-bottom: 1rem;
+}
+
+.left-section-card-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: var(--default-pad);
+}
+
+.right-section {
+  padding-left: var(--default-pad);
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.right-section-child-container {
+  background: var(--bg-2);
+  border-radius: 10px;
+  padding: var(--default-pad);
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  border: 1px solid var(--dark-border-color);
+}
