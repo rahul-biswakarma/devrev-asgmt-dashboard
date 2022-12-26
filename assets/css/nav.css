@@ -43,6 +43,12 @@
   border-left: 5px solid transparent;
 }
 
+.active-nav-icon-container {
+  cursor: pointer;
+  background: var(--bg-3);
+  border-left: 5px solid var(--light-red);
+}
+
 .nav-icon-container:hover {
   cursor: pointer;
   background: var(--bg-3);
