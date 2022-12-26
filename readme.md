@@ -1,5 +1,5 @@
 # Devrev Assignment: Dashboard
-Technology Used: **HTML**, **CSS**
+Technology Used: **HTML**, **CSS**  
 Live Preview: https://rahul-biswakarma.github.io/devrev-asgmt-dashboard/
 
 ## Screenshot
