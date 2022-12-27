@@ -9,6 +9,8 @@ header {
   background: var(--bg-2);
   border-bottom: 1px solid var(--light-border-color);
   color: var(--text-1);
+
+  z-index: 9;
 }
 
 #search-input {
@@ -57,6 +59,11 @@ header {
   border-radius: 50px;
   border: 1px solid var(--light-border-color);
   color: var(--text-1);
+}
+
+#header-button-container button:hover {
+  cursor: pointer;
+  background: var(--button-color-2);
 }
 
 #main-profile-name span:nth-child(1) {
