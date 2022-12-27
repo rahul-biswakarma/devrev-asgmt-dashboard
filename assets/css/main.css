@@ -3,11 +3,29 @@
 @import "announcement.css";
 
 main {
-  display: grid;
-  grid-template-columns: 75% auto;
+  display: flex;
+  flex-wrap: wrap;
   grid-gap: var(--default-pad);
 
   padding: var(--default-pad);
+}
+
+.left-section {
+  flex: max(200px, 70%);
+}
+
+.right-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  flex: max(100px, 25%);
+}
+
+.right-section > div {
+  height: auto;
+  flex: max(200px, 100%/3);
 }
 
 .left-section h3,
@@ -20,17 +38,10 @@ main {
 }
 
 .left-section-card-container {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  gap: var(--default-pad);
-}
-
-.right-section {
-  padding-left: var(--default-pad);
-
   display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  flex-wrap: wrap;
+
+  gap: var(--default-pad);
 }
 
 .right-section-child-container {
