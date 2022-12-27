@@ -6,7 +6,7 @@
   border-left: 10px solid var(--purple);
   background-color: var(--bg-2);
   padding: var(--default-pad);
-  flex: max(400px, 100%/3);
+  flex: max(300px, 100%/3);
 }
 
 .card h2 {

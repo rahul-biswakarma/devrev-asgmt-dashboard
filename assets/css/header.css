@@ -13,12 +13,17 @@ header {
   z-index: 9;
 }
 
+.header-section:first-child span:first-child {
+  width: 100%;
+  padding-right: 1rem;
+}
+
 #search-input {
   background: var(--bg-3);
   border: 1px solid var(--light-border-color);
   border-radius: 50px;
   padding: 0.4rem 1rem;
-  width: 45vw;
+  width: min(45vw, 100%);
   color: var(--text-1);
 }
 #search-input::placeholder {
@@ -29,6 +34,24 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header-section:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.header-section:nth-child(2) > span:first-child {
+  width: max-content;
+  flex: max(200px, 50%);
+}
+
+.header-section:nth-child(2) > span:nth-child(2) {
+  display: flex;
+  flex: min(150px, 20%);
+  justify-content: space-evenly;
 }
 
 .header-section span {

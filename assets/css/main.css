@@ -20,11 +20,12 @@ main {
   flex-wrap: wrap;
   gap: 2rem;
 
+  height: max-content;
+
   flex: max(100px, 25%);
 }
 
 .right-section > div {
-  height: auto;
   flex: max(200px, 100%/3);
 }
 
